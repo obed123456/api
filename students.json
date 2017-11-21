@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Mange",
+    "age" : "32",
+    "skills": "Thug life",
+    "loves": "Sally", 
+    "hates": "Invandrare", 
+    "grupp":"Team Bear",
+    "known": "Dropdown",
+    "music": "Emma Watson",
+    "food": {
+      "likes": ["Sushi", "Pizza"],
+      "dislikes": ["Vegetarisk", "zucchini"]
+    }
+  },
+  {
+    "name": "Obed",
+    "age" : "28 in Sweden",
+    "skills": "Git master",
+    "loves": "Eating good food", 
+    "hates": "Slippey Floor", 
+    "grupp":"Team Bear",
+    "known": "toggle",
+    "music": "Rihanna",
+    "food": {
+      "likes": ["Kött", "glass"],
+      "dislikes": ["Männikokött", "Sushi"]
+    }
+  },
+  {
+    "name": "Patrik",
+    "age" : "unknown",
+    "skills": "Hardcore rockhead",
+    "loves": "Girls with boobs", 
+    "hates": "Git", 
+    "grupp":"Team Bear",
+    "known": "Dropdown",
+    "music": "Britney Spears",
+    "food": {
+      "likes": ["PannCake", "Pizza"],
+      "dislikes": ["Vegetarisk", "hundkött"]
+    }
+  },
+]
