@@ -33,6 +33,7 @@ function renderHTML(data) {
 	var htmlString = "";
 	for( i= 0; i < data.length; i++){
 		htmlString += "<p>" + data[i].name + " age is  " + data[i].age + ". " + "<br>" + "Skills: " + data[i].skills + ". " + "<br>" + "Loves: " + data[i].loves + ". " + "<br>" + "Hates: " + data[i].hates + ". " + "<br>" + "Grupps: " + data[i].grupp + ". " + "<br>" + "Known for: " + data[i].known + ". " + "<br>" + "Favroit Music Artist: " + data[i].music + ". " + "<br>" + "Likes: " + data[i].food.likes[0] + ". " + "<br>" + "</p>";
+		htmlString += "<img class='col-md-4' src='" + data[i].name + "'>";
 	}
    studentContainer.insertAdjacentHTML("beforeend", htmlString);
 
